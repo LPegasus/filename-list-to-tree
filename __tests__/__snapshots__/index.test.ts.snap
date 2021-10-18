@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateRootNode 1`] = `
+Object {
+  "absolutePath": "",
+  "filesOrFolders": Array [
+    Object {
+      "absolutePath": ".gitignore",
+      "filesOrFolders": undefined,
+      "isFile": true,
+      "isFolder": false,
+      "relativePath": ".gitignore",
+    },
+    Object {
+      "absolutePath": "apps",
+      "filesOrFolders": Array [
+        Object {
+          "absolutePath": "apps/infra",
+          "filesOrFolders": Array [
+            Object {
+              "absolutePath": "apps/infra/libs",
+              "filesOrFolders": Array [
+                Object {
+                  "absolutePath": "apps/infra/libs/package.json",
+                  "filesOrFolders": undefined,
+                  "isFile": true,
+                  "isFolder": false,
+                  "relativePath": "package.json",
+                },
+              ],
+              "isFile": false,
+              "isFolder": true,
+              "relativePath": "libs",
+            },
+            Object {
+              "absolutePath": "apps/infra/project1",
+              "filesOrFolders": Array [
+                Object {
+                  "absolutePath": "apps/infra/project1/src",
+                  "filesOrFolders": Array [
+                    Object {
+                      "absolutePath": "apps/infra/project1/src/App.tsx",
+                      "filesOrFolders": undefined,
+                      "isFile": true,
+                      "isFolder": false,
+                      "relativePath": "App.tsx",
+                    },
+                    Object {
+                      "absolutePath": "apps/infra/project1/src/index.tsx",
+                      "filesOrFolders": undefined,
+                      "isFile": true,
+                      "isFolder": false,
+                      "relativePath": "index.tsx",
+                    },
+                  ],
+                  "isFile": false,
+                  "isFolder": true,
+                  "relativePath": "src",
+                },
+                Object {
+                  "absolutePath": "apps/infra/project1/package.json",
+                  "filesOrFolders": undefined,
+                  "isFile": true,
+                  "isFolder": false,
+                  "relativePath": "package.json",
+                },
+              ],
+              "isFile": false,
+              "isFolder": true,
+              "relativePath": "project1",
+            },
+          ],
+          "isFile": false,
+          "isFolder": true,
+          "relativePath": "infra",
+        },
+      ],
+      "isFile": false,
+      "isFolder": true,
+      "relativePath": "apps",
+    },
+    Object {
+      "absolutePath": "common",
+      "filesOrFolders": Array [
+        Object {
+          "absolutePath": "common/config",
+          "filesOrFolders": Array [
+            Object {
+              "absolutePath": "common/config/rush",
+              "filesOrFolders": Array [
+                Object {
+                  "absolutePath": "common/config/rush/.pnpmfile.cjs",
+                  "filesOrFolders": undefined,
+                  "isFile": true,
+                  "isFolder": false,
+                  "relativePath": ".pnpmfile.cjs",
+                },
+                Object {
+                  "absolutePath": "common/config/rush/common-version.json",
+                  "filesOrFolders": undefined,
+                  "isFile": true,
+                  "isFolder": false,
+                  "relativePath": "common-version.json",
+                },
+              ],
+              "isFile": false,
+              "isFolder": true,
+              "relativePath": "rush",
+            },
+          ],
+          "isFile": false,
+          "isFolder": true,
+          "relativePath": "config",
+        },
+      ],
+      "isFile": false,
+      "isFolder": true,
+      "relativePath": "common",
+    },
+    Object {
+      "absolutePath": "package.json",
+      "filesOrFolders": undefined,
+      "isFile": true,
+      "isFolder": false,
+      "relativePath": "package.json",
+    },
+  ],
+  "isFile": false,
+  "isFolder": true,
+  "relativePath": "",
+}
+`;
+
+exports[`generateRootNode combine path 1`] = `
+Object {
+  "absolutePath": "",
+  "filesOrFolders": Array [
+    Object {
+      "absolutePath": ".gitignore",
+      "filesOrFolders": undefined,
+      "isFile": true,
+      "isFolder": false,
+      "relativePath": ".gitignore",
+    },
+    Object {
+      "absolutePath": "apps",
+      "filesOrFolders": Array [
+        Object {
+          "absolutePath": "apps/infra",
+          "filesOrFolders": Array [
+            Object {
+              "absolutePath": "apps/infra/libs",
+              "filesOrFolders": Array [
+                Object {
+                  "absolutePath": "apps/infra/libs/package.json",
+                  "filesOrFolders": undefined,
+                  "isFile": true,
+                  "isFolder": false,
+                  "relativePath": "package.json",
+                },
+              ],
+              "isFile": false,
+              "isFolder": true,
+              "relativePath": "libs",
+            },
+            Object {
+              "absolutePath": "apps/infra/project1",
+              "filesOrFolders": Array [
+                Object {
+                  "absolutePath": "apps/infra/project1/src",
+                  "filesOrFolders": Array [
+                    Object {
+                      "absolutePath": "apps/infra/project1/src/App.tsx",
+                      "filesOrFolders": undefined,
+                      "isFile": true,
+                      "isFolder": false,
+                      "relativePath": "App.tsx",
+                    },
+                    Object {
+                      "absolutePath": "apps/infra/project1/src/index.tsx",
+                      "filesOrFolders": undefined,
+                      "isFile": true,
+                      "isFolder": false,
+                      "relativePath": "index.tsx",
+                    },
+                  ],
+                  "isFile": false,
+                  "isFolder": true,
+                  "relativePath": "src",
+                },
+                Object {
+                  "absolutePath": "apps/infra/project1/package.json",
+                  "filesOrFolders": undefined,
+                  "isFile": true,
+                  "isFolder": false,
+                  "relativePath": "package.json",
+                },
+              ],
+              "isFile": false,
+              "isFolder": true,
+              "relativePath": "project1",
+            },
+          ],
+          "isFile": false,
+          "isFolder": true,
+          "relativePath": "infra",
+        },
+        Object {
+          "absolutePath": "apps/tools/tool1/tool2",
+          "filesOrFolders": Array [
+            Object {
+              "absolutePath": "apps/tools/tool1/tool2/package.json",
+              "filesOrFolders": undefined,
+              "isFile": true,
+              "isFolder": false,
+              "relativePath": "package.json",
+            },
+          ],
+          "isFile": false,
+          "isFolder": true,
+          "relativePath": "tools/tool1/tool2",
+        },
+      ],
+      "isFile": false,
+      "isFolder": true,
+      "relativePath": "apps",
+    },
+    Object {
+      "absolutePath": "package.json",
+      "filesOrFolders": undefined,
+      "isFile": true,
+      "isFolder": false,
+      "relativePath": "package.json",
+    },
+    Object {
+      "absolutePath": "common/config/rush",
+      "filesOrFolders": Array [
+        Object {
+          "absolutePath": "common/config/rush/.pnpmfile.cjs",
+          "filesOrFolders": undefined,
+          "isFile": true,
+          "isFolder": false,
+          "relativePath": ".pnpmfile.cjs",
+        },
+        Object {
+          "absolutePath": "common/config/rush/common-version.json",
+          "filesOrFolders": undefined,
+          "isFile": true,
+          "isFolder": false,
+          "relativePath": "common-version.json",
+        },
+      ],
+      "isFile": false,
+      "isFolder": true,
+      "relativePath": "common/config/rush",
+    },
+  ],
+  "isFile": false,
+  "isFolder": true,
+  "relativePath": "",
+}
+`;
